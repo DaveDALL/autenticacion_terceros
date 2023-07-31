@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    background-color: white;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#productContainer {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+.product-blister {
+  height: 700px;
+  width: 400px;
+  margin: 10px;
+}
+.product-blister .image-box {
+  height: 400px;
+  width: 400px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  display:inline-flex;
+  justify-content: center;
+}
+.product-blister img {
+  width: 80%;
+  height: 90%;
+}
+.product-blister h4 {
+  padding-left: 20px;
+}
+.product-blister p {
+  padding-left: 15px;
+}
+.product-blister .product-info {
+  height: 200px;
+}
+.product-blister #productPrice {
+  font-size: 200%;
+  text-align: center;
+}
+.product-blister .add-cart-button {
+  display: flex;
+  justify-content: right;
+}
+.product-blister button {
+  padding: 5px;
+  align-content: center;
+}
+.page-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.git-button {
+  width: 200px;
+  height: 50pxx;
+  margin-right: 5px;
+}
+.registration {
+  margin: 10px;
+}
+.advise {
+  margin: 10px;
+}
